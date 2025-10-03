@@ -15,4 +15,4 @@ l = ["première phrase", "deuxième phrase", "troisième phrase"]
 f.write("\n".join(l))
 
 f.close()
-print("Écriture terminée ✅")
+print("Écriture terminée")
