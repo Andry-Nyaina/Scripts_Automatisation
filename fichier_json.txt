@@ -1,0 +1,1 @@
+{"nom": "Draken", "age": 22, "ami": ["Mickey", "Takimichi", "Baji"]}
