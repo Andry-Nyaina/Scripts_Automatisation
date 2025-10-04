@@ -1,6 +1,7 @@
 import os.path
 
-os.mkdir("Draken")
+if not os.path.exists("Draken"):
+    os.mkdir("Draken")
 
 filename = os.path.join("rep", "nom_fichier.txt")
 
