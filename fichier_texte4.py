@@ -1,5 +1,7 @@
 import os.path
 
+os.mkdir("Draken")
+
 filename = os.path.join("rep", "nom_fichier.txt")
 
 print("Filename : ", filename)
