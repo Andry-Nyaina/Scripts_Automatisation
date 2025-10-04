@@ -10,6 +10,7 @@ reader_recap = PdfReader(fichier_pdf_recap)
 
 print(f"Nombre des pages du fichier recap : {len(reader_recap.pages)}")
 
+#combiner les deux pages
 contenu_sortie.add_page(reader_presentation.pages[0])
 for i in range(len(reader_recap.pages)):
     contenu_sortie.add_page(reader_recap.pages[i])
