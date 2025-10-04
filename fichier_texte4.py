@@ -1,7 +1,7 @@
 import os.path
 
-if not os.path.exists("Draken"):
-     os.mkdir("Draken")
+# if not os.path.exists("Draken"):
+#      os.mkdir("Draken")
 
 if os.path.exists("Draken"):
     os.rmdir("Draken")
@@ -20,7 +20,8 @@ if os.path.exists(filename):
 else:
     print("Le fichier n'existe pas")
 
-
+if os.path.exists(filename):
+    os.remove(filename)
 """try:
     f = open(filename, "r")
 except:
