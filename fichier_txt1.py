@@ -13,6 +13,7 @@ f = open("nom_fichier.txt", "w")
 # Exemple 3 : écrire plusieurs phrases avec join()
 l = ["première phrase", "deuxième phrase", "troisième phrase"]
 f.write("\n".join(l))
+f.write("\nFin")
 
 f.close()
 print("Écriture terminée")
