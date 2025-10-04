@@ -1,7 +1,11 @@
 import os.path
 
 if not os.path.exists("Draken"):
-    os.mkdir("Draken")
+     os.mkdir("Draken")
+
+if os.path.exists("Draken"):
+    os.rmdir("Draken")
+    print("La répertoire a été supprimer")
 
 filename = os.path.join("rep", "nom_fichier.txt")
 
